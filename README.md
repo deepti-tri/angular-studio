@@ -1,4 +1,4 @@
-[Check out the site here!](https://deepti-tri.github.io/angular-studio/)
+# [Check out the site here!](https://deepti-tri.github.io/angular-studio/)
 
 # AngularStudioPart1
 
