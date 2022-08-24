@@ -30,6 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploy on GitHub Pages
 
-### npm i angular-cli-ghpages --save-dev
-### ng build --prod --base-href "https://github-user-name.github.io/github-repo/"
-### npx angular-cli-ghpages --dir=dist/project-folder
+### `npm i angular-cli-ghpages --save-dev`
+### `ng build --prod --base-href "https://github-user-name.github.io/github-repo/"`
+### `npx angular-cli-ghpages --dir=dist/project-folder`
