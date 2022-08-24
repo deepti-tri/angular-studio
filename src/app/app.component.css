@@ -4,12 +4,46 @@
     width: 500px;
     margin: 0 auto;
  }
-.superbox {
-    border: 2px black;
-    border-style: solid;
-    border-radius: 12px;
-    background-color: powderblue;
-    box-shadow: 10px 10px;
+ .superbox {
+    /* border: 2px black;
+    border-style: solid; */
+    border-radius: 25px;
+    
+    -webkit-animation: card 40s ease infinite;
+    -moz-animation: card 40s ease infinite;
+    box-shadow: 0 0 25px 5px #000;
     margin-left: 500px;
     margin-right: 500px;
+    animation: card 20s ease infinite;
+    overflow: auto;
+    height: 60vh;
+    width: 40vw;
+}
+ @-webkit-keyframes card {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@-moz-keyframes card {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@keyframes card { 
+    0% {
+        
+        background-color: #64d53a;
+      }
+      100% {
+        
+        background-color: #fd297b;
+      }
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    
+    
 }
