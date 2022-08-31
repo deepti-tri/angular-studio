@@ -12,12 +12,12 @@
     -webkit-animation: card 40s ease infinite;
     -moz-animation: card 40s ease infinite;
     box-shadow: 0 0 25px 5px #000;
-    margin-left: 500px;
-    margin-right: 500px;
-    animation: card 20s ease infinite;
+    margin-left: auto;
+    margin-right: auto;
+    animation: card 40s ease infinite alternate;
     overflow: auto;
-    height: 60vh;
-    width: 40vw;
+    height: fit-content;
+    width: fit-content;
 }
  @-webkit-keyframes card {
     0%{background-position:75% 0%}
@@ -33,6 +33,9 @@
     0% {
         
         background-color: #64d53a;
+      }
+      50% {
+        background-color: bisque;
       }
       100% {
         
